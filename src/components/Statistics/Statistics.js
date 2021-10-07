@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import styles from 'components/Statistics/Statistics.module.css';
 
-export function Statistics({ title, stats }) {
+export default function Statistics({ title, stats }) {
   return (
     <section className={styles.statistics}>
       {title ? (

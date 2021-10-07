@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import defaultImage from 'images/default.jpg';
 import styles from 'components/Profile/Profile.module.css';
 
-export function Profile({ name, tag, location, avatar, stats }) {
+export default function Profile({ name, tag, location, avatar, stats }) {
   return (
     <div className={styles.profile}>
       <div className={styles.description}>
